@@ -14,20 +14,7 @@
     .wrapper {
         padding: 0 6px;
         margin-bottom: 2rem;
-    }
-
-    .card, 
-    .card *,
-    .card + * {
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -ms-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-
-        @media (max-width: 480px) {
-            transition: none;
-        }
+        display: inline-block;
     }
 
     .info_panel {
@@ -56,7 +43,7 @@
             height: 85px;
             padding: 5px;
             margin-bottom: 5px;
-            overflow: scroll;
+            overflow-y: scroll;
             font-size: 0.7rem;
             line-height: 105%;
     
